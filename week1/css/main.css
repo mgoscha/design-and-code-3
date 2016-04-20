@@ -1,12 +1,13 @@
 body {
   font-family: 'Old Standard TT', serif;
+  color: white;
 
 }
 
-/*h4 {
+h4 {
 font-weight: 400;
 font-style: italic;
-}*/
+}
 
 .typed-cursor{
     opacity: 1;
@@ -38,15 +39,15 @@ font-style: italic;
   position: absolute;
   z-index:-10;
   font-size: 30pt;
-
+  
 }
 
 .images{
-float: auto;
+
 }
 .pic1{
 float: right;
-margin-right: 14%;
+margin-right: 23%;
 margin-top: 20%;
 
 
@@ -68,12 +69,13 @@ margin-top: 20%;
 }
 
 .pic3:hover { opacity: 0.3; filter: alpha(opacity=30); }
+.row{
 
+  margin-top: 15%;
 
-
-/*@media (min-width: 800px){
-  .images{
-    float:auto;
 
 }
-}*/
+
+.col-sm-4{
+
+}
