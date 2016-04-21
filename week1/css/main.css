@@ -67,8 +67,12 @@ float: right;
 margin-top: 20%;
 
 }*/
+.col-sm-4{
+  padding: 10px;
+}
 
 .col-sm-4:hover { opacity: 0.3; filter: alpha(opacity=30); }
+
 .row{
 
   margin-top: 15%;
@@ -80,4 +84,10 @@ margin-top: 20%;
   position: absolute;
   margin-top:2%;
 
+
 }
+
+@media (max-width: 768px) {
+  .container-fluid{
+    padding-top: 25%
+  }
