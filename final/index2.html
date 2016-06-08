@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head profile="http://www.w3.org/2005/10/profile">
+<link rel="icon"
+      type="image/png"
+      href="http://i.imgur.com/vmXXkWf.png">
+	<title>Ask a Muslim</title>
+	<link rel="stylesheet" type="text/css" href="assets/stylesheet/full-page-scroll.css">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+
+	<style type="text/css">
+	.section1 {
+		background-color: #F5F8FA;
+	}
+
+	.section2 {
+		background-color: #F5F8FA;
+	}
+
+	.section3 {
+		background-color:  #F5F8FA;
+	}
+
+	.section4 {
+		background-color:  #F5F8FA;
+	}
+
+	.section5 {
+		background-color:  #F5F8FA;
+	}
+
+	section div {
+		font-family: 'Quicksand', sans-serif;
+    font-size: 25pt;
+		font-style: normal;
+		text-align: center;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+
+
+
+	</style>
+
+
+
+</head>
+
+
+<body>
+
+
+  <audio id="sound1" src="assets/audio/marriage.WAV"></audio>
+  <audio id="sound2" src="sounds/sound2.mp3"></audio>
+  <audio id="sound3" src="assets/audio/rage1.WAV"></audio>
+  <audio id="sound4" src="sounds/sound4.mp3"></audio>
+  <audio id="sound5" src="assets/audio/converted.WAV"></audio>
+  <audio id="sound6" src="sounds/sound6.mp3"></audio>
+
+
+  <!---<button onclick="playSound1()">Sound 1</button><br />--->
+
+
+  <script type="text/javascript">
+  var audio1 = document.getElementById('sound1');
+  var audio2 = document.getElementById('sound2');
+  var audio3 = document.getElementById('sound3');
+  var audio4 = document.getElementById('sound4');
+  var audio5 = document.getElementById('sound5');
+  var audio6 = document.getElementById('sound6');
+  function playSound1(){
+  if (audio1.paused !== true){
+      audio1.pause();
+      audio2.play();
+      }
+  else{
+      audio2.play();
+      }
+  }
+  function playSound2(){
+  if (audio2.paused !== true){
+      audio2.pause();
+      audio1.play();
+      }
+  else{
+      audio1.play();
+      }
+  }
+  function playSound3(){
+  if (audio3.paused !== true){
+      audio3.pause();
+      audio4.play();
+      }
+  else{
+      audio4.play();
+      }
+  }
+  function playSound4(){
+  if (audio4.paused !== true){
+      audio4.pause();
+      audio3.play();
+      }
+  else{
+      audio3.play();
+      }
+  }
+  function playSound5(){
+  if (audio5.paused !== true){
+      audio5.pause();
+      audio6.play();
+      }
+  else{
+      audio6.play();
+      }
+  }
+  function playSound6(){
+  if (audio6.paused !== true){
+      audio6.pause();
+      audio5.play();
+      }
+  else{
+      audio5.play();
+      }
+  }
+  </script>
+
+
+
+
+
+	<div id="main" class="scroll-container">
+		<section class="section1">
+			<div>
+
+				<span class="about">About</span><br>
+        <span class="meet">Meet Mona &amp; Sebastian </span><br>
+        <span class="etc">etc.</span>
+			</div>
+		</section>
+
+
+          <!--<label for="nme"><span>Ask a Muslim:</span></label>--->
+
+        </form></span>
+
+			</div>
+		</section>
+		<!--<section class="section5">
+			<div>
+				<span>Chegar de falar, é só baixar!</span>
+			</div>
+		</section>--->
+	</div>
+	<script src="assets/javascript/full-page-scroll.js"></script>
+	<script type="text/javascript">
+		new fullScroll({
+			displayDots: true,
+			dotsPosition: 'left',
+			animateTime: 0.7,
+			animateFunction: 'ease'
+		});
+	</script>
+
+  <script src="assets/js/TweenMax.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
